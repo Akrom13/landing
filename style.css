@@ -79,8 +79,31 @@ h1{
     cursor: pointer;
 }
 
+#titleCourse{
+    font-size: calc(2.7vw + 24px);
+    line-height: 118%;
+    margin-bottom: calc(5.5vw + 19.3px);
+    font-weight: 500;
+    width: calc(44.1vw + 174px);
+}
+.course-options{
+    margin: 220px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 40px 70px;
+}
+.infoone{
+    display: flex;
+    flex-wrap: wrap;
+}
+.courseimg{
+    width: calc(3.3vw + 167.7px);
+}
 
-
+section {
+    padding: 0 calc(10.6vw - 15.8px) calc(11vw + 18.6px);
+}
 h2{
     font-size: calc(2.8vw + 25px);
     text-transform: uppercase;
